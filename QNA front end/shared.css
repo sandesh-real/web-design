@@ -1,0 +1,459 @@
+
+
+@font-face
+{
+    font-family:"Roboto";
+    src:url("Roboto-Thin.ttf");
+}
+@font-face
+{
+    font-family:"Roboto";
+    src:url("Roboto-Light.ttf");
+}
+@font-face
+{
+    font-family:"Roboto";
+    src:url("Roboto-Regular.ttf");
+}
+@font-face
+{
+    font-family:"Roboto";
+    src:url("Roboto-Medium.ttf");
+}
+@font-face
+{
+    font-family:"Roboto";
+    src:url("Roboto-Bold.ttf");
+}
+
+
+
+/***************************************************/
+/*********************shareable code****************/
+/***************************************************/
+
+*
+{
+    -webkit-box-sizing:border-box;
+            box-sizing:border-box;
+}
+body
+{
+    font-family:"Roboto";
+    background-color:#f6f6f6;
+  
+   
+}
+.fa
+{
+    padding:0 0.3rem;
+}
+
+/***************************************************/
+/*********************Navigation****************/
+/***************************************************/
+.header-section
+{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    
+    height:10rem;
+}
+.nav-info
+{
+    height:50%;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width:100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+/***************logo****************************/
+.main-logo-container
+{
+    height:2.5rem;
+    width:2.5rem;
+}
+.main-logo-container img
+{
+    width:100%;
+    height:100%;
+}
+/*************************************SELECT TAG for JAVASCRIPT*********************************/
+#select
+{
+   color:#F17516;
+ 
+}
+/**************************************profile button********************************/
+.btn-search-collection
+{
+width:90%;
+height:100%;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-pack:end;
+    -ms-flex-pack:end;
+        justify-content:flex-end;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+height:100%;
+text-align: center;
+}
+
+.profile-button
+{
+
+
+text-decoration: none;
+padding:0.8rem 1.5rem;
+color:#f6f6f6;
+background-color:#05B22D;
+border:none;
+border-radius: 50px;  
+
+text-transform: uppercase;
+font-size:0.5rem;
+font-weight:700; 
+letter-spacing: 0.1rem;
+
+-webkit-transition:background-color 0.3s;
+
+-o-transition:background-color 0.3s;
+
+transition:background-color 0.3s;
+margin:0 0.5rem;
+}
+.profile-button:hover
+{
+    background-color:rgb(7, 144, 39);
+ 
+
+}
+
+/**********************************search********************************************/
+
+.question-search-box
+{   width:25%;
+    height:50%;
+    border-radius:50px;
+    margin:0 0.5rem;
+    background-color:#F6F6F6;
+    padding:0rem 1.5rem;
+    border:none;
+    -webkit-box-shadow:-4px -4px 6px #fff,4px 4px 6px #dcd6d6;
+            box-shadow:-4px -4px 6px #fff,4px 4px 6px #dcd6d6;
+   
+  
+}
+.question-search-box::-webkit-input-placeholder
+{
+    color:rgba(32, 32, 32, 0.39);
+}
+.question-search-box::-moz-placeholder
+{
+    color:rgba(32, 32, 32, 0.39);
+}
+.question-search-box:-ms-input-placeholder
+{
+    color:rgba(32, 32, 32, 0.39);
+}
+.question-search-box::-ms-input-placeholder
+{
+    color:rgba(32, 32, 32, 0.39);
+}
+.question-search-box::placeholder
+{
+    color:rgba(32, 32, 32, 0.39);
+}
+
+.question-search-box:focus
+{
+    outline:none;
+    -webkit-box-shadow:inset -3px -3px 6px #fff,inset 3px 3px 6px #dcd6d6;
+            box-shadow:inset -3px -3px 6px #fff,inset 3px 3px 6px #dcd6d6;
+}
+.question-search-box:focus::-webkit-input-placeholder
+{
+    color:rgb(32, 32, 32);
+
+}
+.question-search-box:focus::-moz-placeholder
+{
+    color:rgb(32, 32, 32);
+
+}
+.question-search-box:focus:-ms-input-placeholder
+{
+    color:rgb(32, 32, 32);
+
+}
+.question-search-box:focus::-ms-input-placeholder
+{
+    color:rgb(32, 32, 32);
+
+}
+.question-search-box:focus::placeholder
+{
+    color:rgb(32, 32, 32);
+
+}
+.Add-question-button
+{
+
+    text-decoration: none;
+    padding:0.8rem 1.5rem;
+
+    border:none;
+    border-radius: 50px;  
+    
+    background-color:#F17516;
+    text-transform: uppercase;
+    font-size:0.5rem;
+    font-weight:700; 
+    letter-spacing: 0.1rem;
+    color: #F6F6F6;
+   
+    -webkit-transition:background-color 0.3s;
+   
+    -o-transition:background-color 0.3s;
+   
+    transition:background-color 0.3s;
+    margin:0 0 0 0.5rem;
+
+}
+.Add-question-button:hover
+{
+    background-color:rgb(196, 92, 13);
+
+}
+
+
+/**********************************simple navigation***************************/
+.nav-container
+{
+    width: 90%;
+    height:30%; 
+    text-align: center;
+    margin:auto;
+}
+nav
+{
+    padding:0.8rem 0 ;
+    border-radius:50px;
+   width: 100%;
+    height:100%;
+    background-color: #F6F6F6;
+    -webkit-box-shadow:-4px -4px 6px #fff,4px 4px 6px #dcd6d6;
+            box-shadow:-4px -4px 6px #fff,4px 4px 6px #dcd6d6;
+   
+    
+  
+
+
+}
+.main__nav--lists
+{  display:-webkit-box;  display:-ms-flexbox;  display:flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style:none;
+    margin:0;
+    width:100%;
+
+}
+.main__nav--list
+{
+display:inline-block;
+
+
+}
+.main__nav--list a
+{
+    text-decoration:none;
+    text-transform: uppercase;
+    color:#05b22d;
+    font-size:0.8rem;
+    letter-spacing: 0.1rem;
+    -webkit-transition:border 0.3s;
+    -o-transition:border 0.3s;
+    transition:border 0.3s;
+}
+.main__nav--list a:hover
+{
+    border-bottom: 4px solid #F17516;
+    padding-bottom: 0.5rem;
+    color:rgb(7, 144, 39);
+    
+}
+
+/********************* small-nav *********************/
+.small-nav
+ {
+   
+    background-color:rgba(0,0,0,0.7);
+    width:50px;
+    height:45px;
+    border-radius:10px;
+    display:none;
+    margin-left:0.5rem;
+    background-color: #F6F6F6;
+    -webkit-box-shadow:-4px -4px 6px #fff,4px 4px 6px #dcd6d6;
+            box-shadow:-4px -4px 6px #fff,4px 4px 6px #dcd6d6;
+    
+ }
+ .small-nav:hover
+ {
+     -webkit-box-shadow: inset -3px -3px 6px #fff, inset 3px 3px 6px #dcd6d6;
+             box-shadow: inset -3px -3px 6px #fff, inset 3px 3px 6px #dcd6d6;
+ }
+ .small-internal
+ {
+    position: relative;
+    width:50px;
+    height:100%;
+   
+  
+ }
+
+ .small-nav .bar1,
+ .small-nav .bar2,
+ .small-nav .bar3
+ {
+     position:absolute;
+     width:35px;
+     height:3px;
+     background-color:#F17516;
+     border-radius:50px;
+     left:8px;
+ }
+ .small-nav .bar1
+ {
+    top:25%;
+   
+ }
+ .small-nav .bar2
+ {
+    top:45%;
+ }
+ .small-nav .bar3
+ {
+    top:65%;
+ }
+
+
+@media (max-width:600px)
+{
+    .nav-container
+    {
+        position: absolute;
+       
+        height:100%;
+        width:100%;
+       
+      top:-100%;
+      -webkit-transition:top 0.5s;
+      -o-transition:top 0.5s;
+      transition:top 0.5s;
+    }
+  nav{
+      position: relative;
+          width:100%;
+          height:100%;
+          margin:0;
+         
+   
+  }
+  .main__nav--lists
+{
+    position:absolute;
+    top:0;
+    left:0;
+    list-style:none;
+  
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.9);
+    margin:0;
+    z-index:2;
+    display:inline-block;
+    padding:0;
+}
+
+.main__nav--list
+{
+    display:block;
+    height:10%;
+    margin:1rem 0;
+  
+    
+}
+.main__nav--list a
+{
+    color:#fff; 
+}
+.main__nav--lists-click
+{
+ 
+    top:18%;
+  
+}
+
+    .small-nav
+ {
+     display:inline-block;
+ }
+ .profile-button
+    {
+     padding:0.6rem 1rem;
+     font-size:0.48rem;
+      
+    }
+    .Add-question-button
+    {
+        padding:0.6rem 1rem;
+        font-size:0.48rem;
+    }
+    .question-search-box
+    {
+        width:30%;
+        height:30%;
+    }
+
+
+}
+
+@media (max-width:450px)
+{
+    .profile-button
+    {
+     padding:0.3rem 1rem;
+     font-size:0.45rem;   
+    }
+    .Add-question-button
+    {
+        padding:0.3rem 1rem;
+        font-size:0.45rem;
+    }
+    .question-search-box
+    {
+        width:30%;
+        height:30%;
+    }
+}

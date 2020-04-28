@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="../icon/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="style.css">
+    <title>SubMain</title>
+</head>
+<body>
+                  <!---------------------------header start--------------------- -->
+
+                  <header class="header-section">
+                    <!---------------------------quesiton pupof menu_--------------------- -->
+            
+                 
+                  <!-- other website content -->
+                  <!-- navigaiton menu top browser -->
+                  <div class="nav-info">
+                              <!---------------------------logo or brand_--------------------- -->
+            
+                  <div class="main-logo-container"><a href="../index.html"><img src="../image/html/uhost-icon.png" alt="QnA-logo"></a></div>
+            
+                         <!---------------------------nav bar ko buttons--------------------- -->
+            
+                  <div class="btn-search-collection">
+                              <!---------------------------profiles button---------------- -->
+            
+                      <a href="../navExplore/profiles/index.html" class="profile-button"><i class="fa fa-user" aria-hidden="true"></i>Profile Name</a>
+                     <!---------------------------question search input_--------------------- -->
+                      <input type="text" name="search-question" placeholder='search' class="question-search-box">
+            
+                              <!---------------------------add question btn_--------------------- -->
+                      <a href="#" class="Add-question-button">Add Question<i class="fa fa-plus" aria-hidden="true"></i></a>
+            
+                              <!---------------------------responsive nav ko button start--------------------- -->
+                      <div class="small-nav">
+                          <div class="small-internal">
+                          <div class="bar1"></div>
+                          <div class="bar2"></div>
+                          <div class="bar3"></div>
+                      </div>
+                   
+                      </div>
+                <!---------------------------responsive nav ko button end--------------------- -->
+            
+                  </div>
+                 
+            </div>
+            <div class="nav-container">
+            <!---------------------------navigation start--------------------- -->
+            
+            
+            <nav class="main-navs">
+            
+              <ul class="main__nav--lists">
+                  <li class="main__nav--list" ><a href="../sub-main/index.html" id="select"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                  <li class="main__nav--list"><a href="../navExplore/recommendations/index.html">Recommendation</a></li>
+                  <li class="main__nav--list"><a href="../navExplore/notifications/index.html"><i class="fa fa-bell" aria-hidden="true" id="bell-notification"></i>Notification</a></li>
+                  <li class="main__nav--list"><a href="../navExplore/YourQuestion/index.html">Your Questions</a></li>
+              </ul>
+            
+            </nav>
+            <!---------------------------navigation end--------------------- -->
+            </div>
+            
+            </header>
+            <!---------------------------header end--------------------- -->
+
+    
+            <!---------------------------main start--------------------- -->
+
+  <main id="my-main">
+                  <!---------------------------side bar start--------------------- -->
+
+      <aside>
+        <div class="division-category">
+             
+            <a href="../divisions/index.html" class="division">7th SEM</a>
+        <a class="sidebarOpener">
+            <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
+        </a>
+        <a class="sidebarCloser">
+            <p><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></p>
+        </a>
+        </div>
+            <ul class="subject-lists">
+                <li class="subject-list"><a href="#">Java</a></li>
+                <li class="subject-list"><a href="#" id="division-select">Internet Technology</a></li> 
+                <li class="subject-list"><a href="#">Software Project</a></li>
+                <li class="subject-list"><a href="#">Project</a></li>
+                <li class="subject-list"><a href="#">Java++</a></li>
+                <li class="subject-list"><a href="#">Java--</a></li>
+            </ul>
+            
+
+      </aside>
+                  <!---------------------------sidebar end--------------------- -->
+ <!---------------------------main-section start--------------------- -->
+
+        <section class="ask-look-question">
+             <!---------------------------pop up to add question start--------------------- -->
+            <div class="popup">
+                <div class="popup-content">
+                    <form action="#" method="get"><!--------------------popup form----------------- -->
+
+                    <div class="question-form">
+                       
+                        <i class="fa fa-times close" aria-hidden="true"></i>
+                        <div class="select-design public-private"><!--------------------select for annonymity----------------- -->
+                     
+                                <select name="question-anonymous-box" id="question-anonymous-box">
+                                    <option value="#" selected disabled>Annonymity</option>
+                                    <option value="Public">Public(profile visible)</option>
+                                    <option value="Private">Private(profile hidden)</option>
+                                </select>
+            
+                            </div>
+                        
+                        <div class="question-input"><!--------------------popup form----------------- -->
+                            <input type="text" class="question-input-section"  name="questionInput" placeholder="Asked Question: Starts from 'what' ,'who', 'How' etc  "> 
+                        </div>
+                        <!--------------------image show after select image----------------- -->
+                        <div class="img-show"><div class="inner-circle"><img src="" alt="" id="image-field"></div></div>
+                        <div class="add-image"><!--------------------select image----------------- -->
+                            <label for="image" class="image-for-question">Add image<i class="fa fa-plus" aria-hidden="true"></i></label>
+                            <input type="file" class="image-box" name="image" id="image">
+                        </div>
+                        <div class="question-tag"><!--------------------select tag  question ko laagi----------------- -->
+                            <div class="question-tag-box">
+                            <button class="taglist-btn">Add tag<i class="fa fa-plus" id="add" aria-hidden="true"></i></button>
+                            <div class="tag-selected-container"><!--------------------tag list----------------- -->
+                                <ul class="tag-selected-lists">
+                                    <li class="tag-selected-list"><input type="checkbox" class="tag-checkedBox" id="tag-for-1" value="java" name="tagCheckedBox"><label for="tag-for-1">Java</label></li>
+                                    <li class="tag-selected-list"><input type="checkbox" class="tag-checkedBox" id="tag-for-2" value="web" name="tagCheckedBox"><label for="tag-for-2">web</label></li>
+                                    <li class="tag-selected-list"><input type="checkbox" class="tag-checkedBox" id="tag-for-3" value="programming" name="tagCheckedBox"><label for="tag-for-3">programming</label></li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <!--  -->
+                        <div class="select-design select-subject"><!--------------------select subject----------------- -->
+                     
+                            <select name="question-subject-box" id="question-subject-box">
+                                <option value="#" selected disabled>Choose subject</option>
+                                <option value="#">Java</option>
+                                <option value="#">Internet technology</option>
+                            </select>
+        
+                        </div>
+                        <!--------------------question submit button----------------- -->
+                        <button type="submit" id="add-question-btn" class="add-question-btn" name="add-question">add question</button>
+                    </div>
+                </div>
+                    </form>
+                   
+                   
+                </div>
+                <!--------------------popup to add question end----------------- -->
+                
+                <div class="ask-question"><!--------------------ask question input selector in main content body----------------- -->
+                     <a href="../navExplore/profiles/index.html" class="question-profile">profileName</a>
+                    <button class="ask-question-box" id="question-btn">
+                    <h2>What is your Question?</h2>
+                   
+                    <p class="question-click">(click to add)</p>
+                    </button>
+            </div>
+            <!--------------------main-question contaier for recommendation----------------- -->
+            <div class="main-question-container">
+                <div class="question-box">
+               <!--------------------question container ko bhitrai real question content start----------------- -->
+                <div class="questions" id="questions">
+                    <div class="top-part">
+                    <p class="recommend-text">Recommendate For You</p>
+                    <div class="more-option">
+                        <button class="option-anchor opt-1">
+                         <div class="cir-1"></div>
+                         <div class="cir-2"></div>
+                         <div class="cir-3"></div>
+                     </button>
+                    <div class="more-option-container-1 for-all-option" id="closeMoreOption">
+                        <div class="more-option-second-container">
+                        <a href="#">delete</a>
+                        <a href="#">report</a>
+                    </div>
+                    </div>
+                     </div>
+                    </div>
+                    <h1 class="question-text">What is the advantage of Java?Can I learn java?<a href="#" class="question-more-tag">(more)</a></h1>
+                    
+                    <div class="question-image">
+                        <img src="../image/html/{3AA6A9A0-1738-4A0E-A8D3-E232218068D1}.png.jpg" alt="fsdfds" >
+
+                    </div>
+               
+                    
+                    <div class="small-detail">
+                        <p>Answered, Aug-4,2020</p>
+                        <div class="tags">
+                            <a href="#" class="first-tag">Java</a>
+                            <a href="#" class="second-tag">Programmin</a>
+                        </div>
+                    </div>
+                    <div class="answer-btn-container">
+                    <a href="../viewAnswer/index.html" class="answer-btn" style="text-align: center;">VIEW ANSWER</a>
+                </div>
+                </div>
+               <!--------------------question container ko bhitrai real question content end----------------- -->
+
+                <div class="questions" id="questions">
+                    <div class="top-part">
+                    <p class="recommend-text">Recommendate For You</p>
+                    <div class="more-option">
+                        <button class="option-anchor opt-2">
+                         <div class="cir-1"></div>
+                         <div class="cir-2"></div>
+                         <div class="cir-3"></div>
+                     </button>
+                    <div class="more-option-container-2 for-all-option" id="closeMoreOption">
+                        <div class="more-option-second-container">
+                        <a href="#">delete</a>
+                        <a href="#">report</a>
+                    </div>
+                    </div>
+                     </div>
+                    </div>
+                    <h1 class="question-text">What is the advantage of Java?Can I learn java?<a href="#" class="question-more-tag">(more)</a></h1>
+                    
+                    <!-- <div class="question-image">
+                        <img src="../image/html/{3AA6A9A0-1738-4A0E-A8D3-E232218068D1}.png.jpg" alt="fsdfds" >
+
+                    </div>
+                -->
+                    
+                    <div class="small-detail">
+                        <p>Answered, Aug-4,2020</p>
+                        <div class="tags">
+                            <a href="#" class="first-tag">Java</a>
+                            <a href="#" class="second-tag">Programmin</a>
+                        </div>
+                    </div>
+                    <div class="answer-btn-container">
+                    <a href="../viewAnswer/index.html" class="answer-btn" style="text-align: center;">VIEW ANSWER</a>
+                </div>
+                </div>
+              
+          
+                </div>
+               
+    <!--------------------question content ko parent jun ko bhitra recommendation quesiton ko box hunx----------------- -->
+
+            </div>
+
+            <!--------------------question container end----------------- -->
+        
+        </section>
+          <!--------------------question add and question recomendation end----------------- -->
+
+  </main>
+         <!--------------------main end----------------- -->
+
+  <footer></footer>
+<script>
+
+</script>
+  <script src="main.js"></script>
+  <script src="../shared.js"></script>
+</body>
+</html>

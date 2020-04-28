@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="../icon/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ViewAnswer</title>
+</head>
+<body>
+    <header class="header-section">
+        <!---------------------------quesiton pupof menu_--------------------- -->
+
+     
+      <!-- other website content -->
+      <!-- navigaiton menu top browser -->
+      <div class="nav-info">
+                  <!---------------------------logo or brand_--------------------- -->
+
+      <div class="main-logo-container"><a href="../index.html"><img src="../image/html/uhost-icon.png" alt="QnA-logo"></a></div>
+
+             <!---------------------------nav bar ko buttons--------------------- -->
+
+      <div class="btn-search-collection">
+                  <!---------------------------profiles button---------------- -->
+
+          <a href="../navExplore/profiles/index.html" class="profile-button"><i class="fa fa-user" aria-hidden="true"></i>Profile Name</a>
+         <!---------------------------question search input_--------------------- -->
+          <input type="text" name="search-question" placeholder='search' class="question-search-box">
+
+                  <!---------------------------add question btn_--------------------- -->
+          <a href="#" class="Add-question-button">Add Question<i class="fa fa-plus" aria-hidden="true"></i></a>
+
+                  <!---------------------------responsive nav ko button start--------------------- -->
+          <div class="small-nav">
+              <div class="small-internal">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+          </div>
+       
+          </div>
+    <!---------------------------responsive nav ko button end--------------------- -->
+
+      </div>
+     
+</div>
+<div class="nav-container">
+<!---------------------------navigation start--------------------- -->
+
+
+<nav class="main-navs">
+
+  <ul class="main__nav--lists">
+      <li class="main__nav--list" ><a href="../sub-main/index.html" id="select"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+      <li class="main__nav--list"><a href="../navExplore/recommendations/index.html">Recommendation</a></li>
+      <li class="main__nav--list"><a href="../navExplore/notifications/index.html"><i class="fa fa-bell" aria-hidden="true" id="bell-notification"></i>Notification</a></li>
+      <li class="main__nav--list"><a href="../navExplore/YourQuestion/index.html">Your Questions</a></li>
+  </ul>
+
+</nav>
+<!---------------------------navigation end--------------------- -->
+</div>
+
+</header>
+<!---------------------------header end--------------------- --> 
+
+
+<!---------------------------main-start--------------------- -->
+
+  <main id="my-main">
+      <!---------------------------sidebar-start--------------------- -->
+      <aside>
+       <!---------------------------sidebar ko division category--------------------- -->
+        <div class="division-category">
+             
+            <a class="sidebarOpener">
+                <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
+            </a>
+            <a class="sidebarCloser">
+                <p><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></p>
+            </a><a href="#" class="division">Related Question</a>
+
+
+        </div>
+            <ul class="question-lists"><!---------------------------related question collection--------------------- -->
+            <li class="question-list"><a href="#">What is java?</a></li>
+            <li class="question-list"><a href="#" id="division-select">How to start learning Java?</a></li> 
+            <li class="question-list"><a href="#">Why should I learn Java?</a></li>
+            <li class="question-list"><a href="#">How..</a></li>
+            <li class="question-list"><a href="#">c</a></li>
+            <li class="question-list"><a href="#">Java--</a></li>
+            <li class="question-list"><a href="#">Java++</a></li>
+            <li class="question-list"><a href="#">PHp+</a></li>    
+            </ul>
+
+        
+      </aside> 
+      <!---------------------------sidebar end--------------------- -->
+
+
+      <!---------------------------section for content start--------------------- -->
+
+        <section class="show-look-question">
+                <!--------------------------add answer box start--------------------- -->
+                <div class="show-question">
+                    <div class="show-questions-container">
+                        <!--------------------------question title--------------------- -->
+                        <h1 class="question-text">What is the advantage of Java? Can I learn java?</h1>
+                   
+                    <!---------------------------------more option------------------------------>
+                        <div class="more-option">
+                            <button class="option-anchor opt-1">
+                             <div class="cir-1"></div>
+                             <div class="cir-2"></div>
+                             <div class="cir-3"></div>
+                         </button>
+                        <div class="more-option-container-1 for-all-option for-all-option-question" id="closeMoreOption">
+                            <div class="more-option-second-container">
+                            <a href="#">delete</a>
+                            <a href="#">report</a>
+                        </div>
+                        </div>
+                         </div>
+                         <!---------------------------more-option-end--------------------- -->
+                        <div class="small-detail show-small-detail">
+                            <div class="tags">
+                                <a href="#" class="first-tag">Java</a>
+                                <a href="#" class="second-tag">Programmin</a>
+                            </div>
+                        </div>
+                        <div class="show-question-btn">
+                            <div class="add-ans-button">
+                        <button href="#" class="add-answer-btn btn" id="add-answer-btn">Add ANSWER</button>
+                        <div class="popup">
+                            <div class="popup-content"> 
+                                <i class="fa fa-times close" aria-hidden="true"></i> 
+                                <form action="#" method="get" class="answer-form">
+                                    <div class="answer-input">
+                                        <textarea name="" id="" cols="" rows="10" name="answer-text" placeholder="Enter your answer"></textarea>
+                                    </div>
+                                    <div class="image-input">
+                                        <label for="image" class="image-for-question">Add image<i class="fa fa-plus" aria-hidden="true"></i></label>
+                                        <input type="file" class="image-box" name="image" id="image">
+                                    </div>
+                                    <div class="submit-for-answer">
+                                        <input type="submit" name="submit" id="answer-submit">
+                                    </div>
+                            </form>
+                            </div>
+                                
+                               
+                               
+                            </div>
+                    </div>
+                        
+                        <a href="#" class="follow-btn btn">Follow</a>
+                    </div>
+                    <div class="answer-number">
+                        2 Answer
+                    </div>
+                        
+                    </div>
+            </div>
+            <!--------------------------add answer end--------------------- -->
+
+            <!-------------------------answer container start--------------------- -->
+            <div class="answer-container">
+                <div class="answers">
+                    <div class="profile-information-answer">
+        
+                        <div class="profile-answer-time">
+                            <img src="../image/html/customer-1.jpg" alt="">
+                            <div class="profile-text">
+                            <p>profileName</p><!--------profile-informatoin----------- -->
+                            <span>Answer March-20,2020</span>
+                        </div>
+                        </div>
+                        <div class="add-friend">
+                            add+
+                        </div>
+                    </div>
+                    <div class="answer-content"><!------answer content------------- -->
+                        <p>Simple: Java was designed to be easy to use, write, compile, debug,
+                             and learn than other programming languages. Object-Oriented: 
+                             Allows you to create modular programs and reusable code.
+                             Platform-Independent: Ability to move easily from one computer system to another.
+                             Lorem ipsum dolor sit amet.(more)</p>
+                             <img src="../image/html/{3AA6A9A0-1738-4A0E-A8D3-E232218068D1}.png.jpg" alt="" class="answer-text-image"> 
+
+                    </div>
+
+                    <!--------------------------comment and upvote buttons--------------------- -->
+                    <div class="comment-answer">
+                       <a class="comment-btn" href="#comment-focus">Comment</a>
+                       <a href="#" class="upvote-btn">UpVote</a>
+                       <div class="more-option">
+                        <button class="option-anchor-answer opt-1" id="option-anchor-answer">
+                         <div class="cir-1"></div>
+                         <div class="cir-2"></div>
+                         <div class="cir-3"></div>
+                     </button>
+                    <div class="more-option-container-answer-1 for-all-option for-all-option-answer" id="closeMoreOption">
+                        <div class="more-option-second-container">
+                        <a href="#">delete</a>
+                        <a href="#">report</a>
+                    </div>
+                    </div>
+                     </div>
+                     </div>
+
+<!------------------------------------ comment box start----------------------------------------------------------->
+
+                     <div class="comment-container" id="comment-focus">
+                         <div class="comment-content-box">
+                             <div class="answer-comment">
+                                 <div class="comment-profile-information-and-more-option">
+                                     <div class="answer-comment-profile-information">
+                                         <div class="answer-comment-profile">
+                                         <img src="../image/html/customer-1.jpg" alt="">
+                                        </div>
+                                         <div class="profile-information">
+                                             <p>Profile-name</p>
+                                             <p>date</p>
+                                         </div>
+                                     </div>
+                                       <div class="more-option more-option-comment">
+                                        <button class="option-anchor-comment opt-1" id="option-anchor-comment">
+                                         <div class="cir-1"></div>
+                                         <div class="cir-2"></div>
+                                         <div class="cir-3"></div>
+                                     </button>
+                                    <div class="more-option-container-comment-1 for-all-option for-all-option-comment" id="closeMoreOption">
+                                        <div class="more-option-second-container">
+                                        <a href="#">delete</a>
+                                        <a href="#">report</a>
+                                    </div>
+                                    </div>
+                                     </div>
+                                  
+                                 </div>
+                                 <div class="answer-comment-text">
+                                     <h2>Thank for your answer Lorem ipsum dolor, sit amet consectetur adipisicing elit. </h2>
+                                 </div>
+                                 <div class="reply-comment-btn-container">
+                                     <button class="reply-comment-btn">reply</button>
+                                 </div>
+                             </div>
+
+ <!--------------------------------------------------reply-comments-start--------------------------------------------------->                            
+                             <div class="reply-comment">
+                                 <div class="reply-input-above-code">
+                                 <div class="reply-profile-information-and-more-option">
+                                    <div class="reply-profile-information">
+                                        <div class="reply-profile">
+                                        <img src="../image/html/customer-1.jpg" alt="">
+                                        </div>
+                                        <div class="reply-profile-details">
+                                            <p>Profile-name</p>
+                                            <p>date</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="more-option-reply">
+                                        <div class="more-option more-option-reply">
+                                            <button class="option-anchor-reply opt-1" id="option-anchor-reply">
+                                             <div class="cir-1"></div>
+                                             <div class="cir-2"></div>
+                                             <div class="cir-3"></div>
+                                         </button>
+                                        <div class="more-option-container-reply-1 for-all-option for-all-option-reply" id="closeMoreOption">
+                                            <div class="more-option-second-container">
+                                            <a href="#">delete</a>
+                                            <a href="#">report</a>
+                                        </div>
+                                        </div>
+                                         </div>
+                                    </div>
+                                 </div>
+                                 <div class="reply-comment-text">
+                                    <h3>Thankyou for comment Lorem ipsum dolor sit amet consectetur, </h3>
+                                    
+                                </div>
+                         
+                            </div>
+                                 <div class="input-for-reply">
+                                     <form action="#" method="post">
+                                     <input type="text" name="reply" id="reply-input" placeholder="Add a reply">
+                                     <div class="add-reply-small-btn"><button href="../index.html" id="reply-add-btn" type="submit" name="reply">add <img src="../image/html/icons8-enter-key-50.png" width="13rem" height="13rem" alt=""></button></div>
+                                    </form>
+                                 </div>
+                                        <!--------------------------reply-end--------------------- -->
+                             </div>
+                         </div>
+             
+
+        <!----------------------------------comment add btn--------------------- -->
+
+                         <div class="comment-profile-information">
+                            <img src="../image/html/customer-2.jpg" alt="">
+                            <form action="#" method="post">
+                            <input type="text" name="comment" placeholder="Add a Comment" id="comment-input-field">
+                            <button type="submit" class="add-comment-btn" id="add-comment-button" name="comment">Add</button>
+                        </form>
+                            
+
+                        </div>
+                   
+                     </div>
+                     <!----------------------------------comment content end--------------------- -->
+                   
+                       
+                      
+                  
+                   
+                    
+                     </div>
+                    
+                 
+            </div>
+        
+        </section>
+        <!--------------------------------answer section end---------------------------------------- -->
+  </main>
+  <footer></footer>
+<!----------------------------------javascript code--------------------- -->
+  <script src="index.js"></script>
+</body>
+<!----------------------------------body-end--------------------- -->
+</html>
